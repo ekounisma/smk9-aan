@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Controllers;
+
+
+class Pages extends BaseController
+{
+    public function index()
+    {
+        $data = ['isicontent' => '/coba/content'];
+        return view('tampil', $data);
+    }
+
+    public function about()
+    {
+        echo view('coba/navbar');
+        echo view('coba/sidebar');
+        echo view('coba/footer');
+        echo view('coba/content');
+    }
+}
