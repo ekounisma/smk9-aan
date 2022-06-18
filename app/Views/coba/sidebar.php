@@ -37,6 +37,12 @@
                 <p>update</p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href=<?php echo base_url() . "/dftrmhs"; ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>daftar mahasiswa</p>
+              </a>
+            </li>
           </ul>
         </li>
         <li class="nav-item">
