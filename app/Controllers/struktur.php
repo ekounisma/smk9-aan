@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 
-class dftrmhs extends BaseController
+class struktur extends BaseController
 {
     public function index()
     {
         $data = [
-            'isicontent' => 'dftrmhs'
+            'isicontent' => 'str'
         ];
         return view('tampil', $data);
     }

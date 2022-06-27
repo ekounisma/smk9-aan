@@ -6,10 +6,15 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        $data = ['isicontent' => '/coba/content'];
+        return view('login', $data);
     }
-    public function coba()
+
+    public function about()
     {
-        echo "Hallo Bestay";
+        echo view('coba/navbar');
+        echo view('coba/sidebar');
+        echo view('coba/footer');
+        echo view('coba/content');
     }
 }

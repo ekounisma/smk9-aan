@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 
-class dftrmhs extends BaseController
+class visimisi extends BaseController
 {
     public function index()
     {
         $data = [
-            'isicontent' => 'dftrmhs'
+            'isicontent' => 'visi'
         ];
         return view('tampil', $data);
     }

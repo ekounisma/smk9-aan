@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 
-class Mahasiswa2 extends BaseController
+class almt extends BaseController
 {
     public function index()
     {
         $data = [
-            'isicontent' => 'visi'
+            'isicontent' => 'apt'
         ];
         return view('tampil', $data);
     }

@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 
-class dftrmhs extends BaseController
+class kosong extends BaseController
 {
     public function index()
     {
         $data = [
-            'isicontent' => 'dftrmhs'
+            'isicontent' => 'kosong'
         ];
         return view('tampil', $data);
     }

@@ -8,7 +8,7 @@ class Pages extends BaseController
     public function index()
     {
         $data = ['isicontent' => '/coba/content'];
-        return view('tampil', $data);
+        return view('login', $data);
     }
 
     public function about()

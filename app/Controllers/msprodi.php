@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 
-class dftrmhs extends BaseController
+class msprodi extends BaseController
 {
     public function index()
     {
         $data = [
-            'isicontent' => 'dftrmhs'
+            'isicontent' => 'ms'
         ];
         return view('tampil', $data);
     }

@@ -35,6 +35,8 @@
   <link rel="stylesheet" href=<?php echo base_url() . "/aset/plugins/datatables-buttons/css/buttons.bootstrap4.min.css"; ?>>
   <!-- Theme style -->
   <link rel="stylesheet" href=<?php echo base_url() . "/aset/dist/css/adminlte.min.css"; ?>>
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href=<?php echo base_url() . "/aset/plugins/icheck-bootstrap/icheck-bootstrap.min.css"; ?>>
 
 </head>
 
@@ -96,3 +98,5 @@
       </ul>
     </nav>
     <!-- /.navbar -->
+  </div>
+</body>

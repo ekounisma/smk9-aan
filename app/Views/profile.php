@@ -35,7 +35,7 @@
               <h3 class="profile-username text-center"><b></b></h3>
               <p class="text-muted text-center"></p>
               <div style="text-align: center;">
-                <a href=<?php echo base_url() . "/edit3"; ?>>
+                <a href=<?php echo base_url() . "/logo"; ?>>
                   <i class="fa fa-angle-double-right mr-1"></i>
                   Upload Logo
                   <i class="fa fa-angle-double-left mr-1"></i>
@@ -56,7 +56,7 @@
               <strong><i class="fa fa-university mr-1"></i> Perguruan Tinggi</strong>
               <br>
               <br>Kode PT : <b>201</b><br>Nama PT : <b>TADIKA</b><br>Singkatan Nama : <b>TDA</b> <span class="float-right">
-                <a href=<?php echo base_url() . "/edit"; ?> class="link-black text-sm">
+                <a href=<?php echo base_url() . "/pt"; ?> class="link-black text-sm">
                   <i class="fa fa-angle-double-right mr-1"></i>
                 </a>
               </span>
@@ -66,7 +66,7 @@
               <strong><i class="fa fa-users mr-1"></i> Pimpinan</strong>
               <br>
               Rektor/Ketua/Direktur<br><b><i>EDI</i></b><br>WR/PuKet/AsDir I<br><b><i>MAIL</i></b><br>WR/PuKet/AsDir II<br><b><i></i></b><br>WR/PuKet/AsDir III<br><b><i></i></b><br> <span class="float-right">
-                <a href=<?php echo base_url() . "/edit1"; ?> class="link-black text-sm">
+                <a href=<?php echo base_url() . "/pimpin"; ?> class="link-black text-sm">
                   <i class="fa fa-angle-double-right mr-1"></i>
                 </a>
               </span>
@@ -76,7 +76,7 @@
               <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
               <br>
               Jl Durian Rotoh<br>Gak<br>Roh<br>Inggris<br> <span class="float-right">
-                <a href=<?php echo base_url() . "/edit2"; ?> class="link-black text-sm">
+                <a href=<?php echo base_url() . "/almt"; ?> class="link-black text-sm">
                   <i class="fa fa-angle-double-right mr-1"></i>
                 </a>
               </span>
@@ -94,6 +94,7 @@
               <ul class="nav nav-pills">
                 <li class="nav-item"><a class="nav-link active" href="#visimisi" data-toggle="tab">Visi Misi</a></li>
                 <li class="nav-item"><a class="nav-link" href="#struktur" data-toggle="tab">Struktur</a></li>
+                <li class="nav-item"><a class="nav-link" href="#prodi" data-toggle="tab">Program Studi</a></li>
               </ul>
             </div><!-- /.card-header -->
             <div class="card-body">
@@ -119,8 +120,16 @@
                       </u> bersama <b>harus melihat</b>
                     </p>
                     </p>
+                    <br>
+                  </div>
+                  <div class="post">
+                    <a href="#"><b>TUJUAN</b></a>
+                    <p>
+                    <p>
+                    </p>
+                    </p>
                     <span class="float-right">
-                      <a href=<?php echo base_url() . "/mahasiswa2"; ?> class="link-black text-sm">
+                      <a href=<?php echo base_url() . "/visimisi"; ?> class="link-black text-sm">
                         <i class="fa fa-angle-double-right mr-1"></i>
                       </a>
                     </span>
@@ -136,7 +145,20 @@
                     </div>
                   </div>
                   <span class="float-right">
-                    <a href=<?php echo base_url() . "/mahasiswa1"; ?> class="link-black text-sm">
+                    <a href=<?php echo base_url() . "/struktur"; ?> class="link-black text-sm">
+                      <i class="fa fa-angle-double-right mr-1"></i>
+                    </a>
+                  </span>
+                  <br>
+                </div>
+                <div class="tab-pane" id="prodi">
+                  <div class="post">
+                    <!-- /.user-block -->
+                    <div class="col-sm-12">
+                    </div>
+                  </div>
+                  <span class="float-right">
+                    <a href="#" class="link-black text-sm">
                       <i class="fa fa-angle-double-right mr-1"></i>
                     </a>
                   </span>

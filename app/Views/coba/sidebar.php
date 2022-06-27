@@ -28,19 +28,43 @@
             <li class="nav-item">
               <a href=<?php echo base_url() . "/mahasiswa"; ?> class="nav-link active">
                 <i class="nav-icon fas fa-user-alt"></i>
-                <p>Mahasiswa</p>
+                <p>Perguruan Tinggi</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href=<?php echo base_url() . "/mahasiswa/update"; ?> class="nav-link">
+              <a href=<?php echo base_url() . "/msprodi"; ?> class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>update</p>
+                <p>Fakultas & Prodi</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href=<?php echo base_url() . "/dosen"; ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Dosen</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url() . "/kurikulum"; ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Kurikulum</p>
               </a>
             </li>
             <li class="nav-item">
               <a href=<?php echo base_url() . "/dftrmhs"; ?> class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>daftar mahasiswa</p>
+                <p>Mahasiswa</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href=<?php echo base_url() . "/off"; ?> class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Offering</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url() . "/kelas"; ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Ruang Kelas</p>
               </a>
             </li>
           </ul>

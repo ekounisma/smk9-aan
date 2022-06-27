@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 
-class edit3 extends BaseController
+class logo extends BaseController
 {
     public function index()
     {
@@ -13,11 +13,4 @@ class edit3 extends BaseController
         return view('tampil', $data);
     }
 
-    public function update()
-    {
-        $data = [
-            'isicontent' => 'update'
-        ];
-        return view('tampil', $data);
-    }
 }
